@@ -1,0 +1,20 @@
+var a={
+    nombre:"Oscar",
+    profesion:"Alumno"
+}
+
+console.log(a);
+a.nombre="Abrham";
+a.profesion="Contante";
+console.log(a);
+a.celular="4271736462";
+console.log(a);
+a.correos={
+    correo1:"oscarabraham@utsjr.tv",
+    correo2:"oscar21gg@gmail.com"
+}
+console.log(a);
+a.correos.correo1="abraham@gmail.com";
+a.correos.correo2="crash-kikin@hotmail.com";
+console.log(a);
+console.log(a.correos.correo1);
